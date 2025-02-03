@@ -57,7 +57,15 @@ Enable all dependencies for osTicket Software IIS>WWS>ADF>CGI
 <br />
 
 <p>
-Next step is to Install PHP from the OSTicket folder(Notice that we unzipped the folder to access the contents)
+Next step is to Install remaining files: PHP
+</p>
+<br />
+
+![PHPSTAGE](https://github.com/user-attachments/assets/d2533178-7eb0-4d85-af9b-cb88c76c0948)
+
+![PHP_PART2](https://github.com/user-attachments/assets/78017acd-8957-4b23-9d30-2c23b8db04f6)
+
+<p>
   
 Create a DIRECTORY after the name "PHP" > This is where you will extract all files within the php-7.3.8 folder and install.
 
@@ -70,14 +78,11 @@ Next Install mysql-5.5.62 file in the order that you are reading. Up to down.
   -Credentials root/root
 </p>
 <br />
-
-<p>
-When installing select Standard Configuration
-</p>
-<br />
-
+![php_part3](https://github.com/user-attachments/assets/03f414d4-4de2-41ad-9925-9b066594a981)
+<p>SELECT STANDARD CONFIGURATION</p>
 ![Php_final](https://github.com/user-attachments/assets/5d3c6d64-bb16-4725-96ab-e00648e2c72a)
-![PHP_PART2](https://github.com/user-attachments/assets/78017acd-8957-4b23-9d30-2c23b8db04f6)
 
-<p>Open IIS Manager>OStickets>sites>
+<p> Now we register PHP in IIS:
+
+  Open IIS Manager>OStickets>sites>PHP MANAGER
 </p>
