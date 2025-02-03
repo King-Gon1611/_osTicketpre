@@ -50,7 +50,7 @@ Once logged in to the VM install CGI by following the steps: Open Control Panel>
 ![PART 2 IIS](https://github.com/user-attachments/assets/0240ff01-6a1b-40a7-b4f9-d6a767895cfd)
 
 <p>
-Once navigated to the appropriate screen activate the dependencies. This is where we activate IIS>WWS>ADF>CGI
+Enable all dependencies for osTicket Software IIS>WWS>ADF>CGI
   
 </p>
 
@@ -58,13 +58,26 @@ Once navigated to the appropriate screen activate the dependencies. This is wher
 
 <p>
 Next step is to Install PHP from the OSTicket folder(Notice that we unzipped the folder to access the contents)
-Create a DIRECTORY afte the name "PHP" > This is where you will extract all files within the php-7.3.8 folder and install.
+  
+Create a DIRECTORY after the name "PHP" > This is where you will extract all files within the php-7.3.8 folder and install.
 
+Install rewrite_amd64 file
+
+Install VC_redist.x86
+
+Next Install mysql-5.5.62 file in the order that you are reading. Up to down.
+  -Install using typical set up
+  -Credentials root/root
 </p>
 <br />
-
 
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+When installing select Standard Configuration
 </p>
 <br />
+
+![Php_final](https://github.com/user-attachments/assets/5d3c6d64-bb16-4725-96ab-e00648e2c72a)
+![PHP_PART2](https://github.com/user-attachments/assets/78017acd-8957-4b23-9d30-2c23b8db04f6)
+
+<p>Open IIS Manager>OStickets>sites>
+</p>
