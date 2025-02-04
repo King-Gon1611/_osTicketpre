@@ -35,8 +35,6 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - Rewrite Module
 - osTicket v1.15.8
 
-
-
 <h2>Installation Steps</h2>
 
 
@@ -51,10 +49,6 @@ Create a Azure account: Build a resource group and a VM
 
 
 <p>
-<img src="!(https://github.com/user-attachments/assets/d0a5f2ee-9056-4040-95d3-bfc59398d90e)" height="80%" width="80%" alt="IIS"/>
-</p>
-
-<p>
 Once logged in to the VM install CGI by following the steps: Open Control Panel>Click on Uninstall Programs> Turn On/Off
   <br/>
 Enable all dependencies for osTicket Software IIS>WWS>ADF>CGI
@@ -63,7 +57,6 @@ Enable all dependencies for osTicket Software IIS>WWS>ADF>CGI
 <br />
 
 ![PART 2 IIS](https://github.com/user-attachments/assets/0240ff01-6a1b-40a7-b4f9-d6a767895cfd)
-
 
 
 <p>
@@ -184,7 +177,6 @@ Now we need to create a Database to hold all files from the osTicket software.
 ![database_setpart1](https://github.com/user-attachments/assets/6aa0adf0-893b-418f-b115-1997ada6f886)
 
 
-
 <p>Create a New Database by clicking New 
 <br/> 
 Keep credentials as root and root</p>
@@ -201,4 +193,12 @@ Keep credentials as root and root</p>
 
 ![osTicket_final](https://github.com/user-attachments/assets/2f61c2c6-c97b-4c0e-98d2-4482499df896)
 
+<hr>
+<h1>Summary</h1>
+<p>In conclusion in downloading osTicket Software, the pre-requesistes can be catogorized in two sections. The Database and the web server, these two are dependent on each other without it you won't be able to access osTicket. I used the service from Microsoft called Azure this website is a cloud computing platform and share multiple services. It is here that we create a VM using an image
+<br/>
 
+
+
+
+</p></P>
