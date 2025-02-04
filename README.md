@@ -68,13 +68,13 @@ PHPManagerForIIS> rewrite_amd64> php_7.3.8 (this file should go to its own direc
 
 ![PHPSTAGE](https://github.com/user-attachments/assets/d2533178-7eb0-4d85-af9b-cb88c76c0948)
 
+<p>rewrite_amd64</p>
+
 ![PHP_PART2](https://github.com/user-attachments/assets/78017acd-8957-4b23-9d30-2c23b8db04f6)
 
 <p>
   
 Create a DIRECTORY after the name "PHP" > This is where you will extract all files within the php-7.3.8 folder and install other files such as:
-
-Install rewrite_amd64 file
 
 Install VC_redist.x86
 
@@ -195,7 +195,8 @@ Keep credentials as root and root</p>
 
 <hr>
 <h1>Summary</h1>
-<p>In conclusion in downloading osTicket Software, the pre-requesistes can be catogorized in two sections. The Database and the web server, these two are dependent on each other without it you won't be able to access osTicket. I used the service from Microsoft called Azure this website is a cloud computing platform and share multiple services. It is here that we create a VM using an image
+<p>In conclusion in downloading osTicket Software, the pre-requesistes can be catogorized in two sections. The database and the web server, these two are dependent on each other without it you won't be able to access osTicket. I used the platform from Microsoft called Azure this website is a cloud computing service and shares other useful tools such as AI. 
+ To report this step by step installation. I will do my best to summarize everything. Azure gives us the computing power and configuration to set up the ticketing system, having a VM set up to run windows 10 OS allows us to mess up the computer as much as we want. Once logged inside your RDP computer, Enable the Internet Information Services, by following the commands. Open control panel> uninstall programs> Turn on/off programs> IIS>WWS>ADF>CGI. After enabling IIS donwload remainng files 1)Download PHPMangerforIIS.FILE, 2)Download rewrite.amd file, 3)Download Php7.3.8 extract files and import them in new directory called "PHP", 4)Download VC_redist.x86, 5)Download MySQL5.5 file with credentials root/root,
 <br/>
 
 
