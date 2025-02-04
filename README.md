@@ -15,7 +15,9 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - Internet Information Services (IIS)
 - MySQL
 - PHP Manager
-
+ Heidi SQL
+- osTicket v1.15.8
+- Link to downloads: https://drive.google.com/drive/u/0/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6
 
 <h2>Operating Systems Used </h2>
 
@@ -23,23 +25,34 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>List of Prerequisites</h2>
 
-- Azure Portal 
+- Azure Portal Virtual Machines 
 - Internet Information Services (IIS Manager)
-- Configure CGI within IIS (IIS>WorldWideWebServices>ApplicationDevelopmentFeatures>CGI)
-- Install PHP Manager and create a DIRECTORY of its own.
-- Install MySQL (Typical Set up> Launch Configuration Wizard after install> Standard Configuration___Credentials usually is ROOT,ROOT____)
+- Configure CGI within IIS 
+- Install PHP Manager
+- Install MySQL 
 - Register PHP within IIS Manager
+- VC Redist
+- Rewrite Module
+- osTicket v1.15.8
+
+
+
 <h2>Installation Steps</h2>
 
 
 ![INTRO](https://github.com/user-attachments/assets/35e46185-3daa-46ce-8a42-b57647ae2bb1)
 
 <p>
-Createa Azure account: Build a resource group and a VM
+Create a Azure account: Build a resource group and a VM
 </p>
 <br />
 
 ![PART1 OF iis](https://github.com/user-attachments/assets/24750683-0f02-4ef7-9a9b-f65e58a0ba1a)
+
+
+<p>
+<img src="!(https://github.com/user-attachments/assets/d0a5f2ee-9056-4040-95d3-bfc59398d90e)" height="80%" width="80%" alt="IIS"/>
+</p>
 
 <p>
 Once logged in to the VM install CGI by following the steps: Open Control Panel>Click on Uninstall Programs> Turn On/Off
