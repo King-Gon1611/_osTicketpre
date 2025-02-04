@@ -66,10 +66,12 @@ PHPManagerForIIS> rewrite_amd64> php_7.3.8 (this file should go to its own direc
 </p>
 <br />
 
+
 ![PHPSTAGE](https://github.com/user-attachments/assets/d2533178-7eb0-4d85-af9b-cb88c76c0948)
 
 
 <p>rewrite_amd64</p>
+
 ![PHP_PART2](https://github.com/user-attachments/assets/78017acd-8957-4b23-9d30-2c23b8db04f6)
 
 <p>
@@ -83,6 +85,7 @@ Next Install mysql-5.5.62 file
   -Credentials root/root
 </p>
 <hr>
+
 ![root](https://github.com/user-attachments/assets/238a6251-32ff-44b3-8580-76d421620ff9)
 
 <br />
@@ -108,6 +111,7 @@ Next Install mysql-5.5.62 file
 <p>-From the “osTicket-Installation-Files” folder, unzip “osTicket-v1.15.8.zip” and copy the “upload” folder into “c:\inetpub\wwwroot”<p/>
 <br />
 <hr>
+ 
 ![Screenshot 2025-02-03 152922](https://github.com/user-attachments/assets/894e682b-e76c-4ce1-b737-1d9967bd39a8)
 
 ![Screenshot 2025-02-03 152934](https://github.com/user-attachments/assets/e72ee558-e1ce-4ecc-878b-158601e35c00)
