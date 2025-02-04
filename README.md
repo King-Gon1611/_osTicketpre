@@ -112,6 +112,8 @@ Next Install mysql-5.5.62 file
 
 ![Screenshot 2025-02-03 152934](https://github.com/user-attachments/assets/e72ee558-e1ce-4ecc-878b-158601e35c00)
 
+<p>Select the Inet folder></p>
+
 ![Screenshot 2025-02-03 153033](https://github.com/user-attachments/assets/36136313-afd3-4bae-a65b-d873fa1effd6)
 
 
