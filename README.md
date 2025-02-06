@@ -12,7 +12,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>Video Demonstration</h2>
 
-- ### [YouTube: How to Easily Install a Ticketing System In Windows Server 2022!](https://youtu.be/SongQlaEtc8)
+- ### [YouTube: How to Easily Install a Ticketing System In Windows 10!](https://youtu.be/SongQlaEtc8)
 
 
 
